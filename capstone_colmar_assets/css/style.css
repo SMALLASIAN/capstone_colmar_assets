@@ -375,3 +375,34 @@ header {
         width: 100%;
     }
 }
+
+/* Thesis Exhibit */
+.thesis-exhibit {
+    background-color: rgba(216, 210, 210, 0.849);
+    border-bottom: 1px solid rgb(202, 199, 199);
+}
+
+.thesis-exhibit h1 {
+    text-align: center;
+    padding: 32px 0;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.exhibit-main {
+    display: flex;
+    width: 100%;
+}
+
+.left-column {
+    width: 60%;
+    margin: auto 24px;
+}
+
+.left-column h1 {
+    margin: 24px auto 8px auto;
+}
+
+.left-column p {
+    margin-bottom: 32px;
+}
