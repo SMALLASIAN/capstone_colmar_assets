@@ -431,3 +431,22 @@ article > div{
 video{
     width: 100%;
 }
+
+/* Thesis-mobile */
+@media (max-width: 760px) {
+    .right-column,
+    .video-details {
+        display: none;
+    }
+
+    .left-column {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 24px;
+    }
+
+    .thesis-exhibit {
+        background-color: #f3f1f1;
+        border: none;
+    }
+}
