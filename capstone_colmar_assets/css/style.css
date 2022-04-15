@@ -53,3 +53,26 @@ header {
     text-decoration: none;
     color: inherit;
 }
+
+.mobileNav {
+    display: none;
+}
+
+/* For Mobile */
+
+@media (max-width: 760px) {
+    .mobileNav {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid black;
+        width: 100%;
+        height: 64px;
+    }
+
+    .rightside,
+    .leftside {
+        display: none;
+    }
+}
