@@ -5,3 +5,51 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
+
+/* Header section */
+
+header {
+    margin: 0 auto;
+    display: flex;
+    height: 64px;
+    justify-content: space-between;
+    background-color: inherit;
+}
+
+.leftside {
+    height: 32px;
+    margin-left: 24px;
+    cursor: pointer;
+}
+
+.leftside li {
+    font-size: 25px;
+    list-style-type: none;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    color:rgba(0, 0, 0, 0.6)
+}
+
+.leftside li span {
+    font-weight: 700;
+    color: initial;
+}
+
+.rightside {
+    display: flex;
+    text-align: right;
+    justify-content: center;
+    margin-right: 24px;
+    align-items: center;
+}
+
+.rightside li {
+    list-style: none;
+    margin-left: 16px;
+}
+
+.rightside a {
+    text-decoration: none;
+    color: inherit;
+}
