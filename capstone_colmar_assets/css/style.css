@@ -335,3 +335,43 @@ header {
 .course-container {
     background-color: rgb(255, 255, 250);
 }
+
+/* Courses for mobile */
+@media (max-width: 768px){
+    .course{
+        background-color: rgb(255, 255, 250);
+        display: block;
+        padding: 0;
+        padding: 32px 0;
+        border: 1px solid black;
+    }
+
+    .course-flex{
+        display: block;
+    }
+
+    .course-flex .course-image, .course-details p{
+        display: none;
+    }
+
+    .course h1{
+        width: 100%;
+        margin: 0;
+        padding-bottom: 16px;
+    }
+
+    .course-details{
+        width: 90%;
+        margin: 8px auto;
+        color: #383838
+    }
+    
+    .course-details h2{
+        background-color: #ece8e8;
+        padding: 16px 0 24px 16px;
+        margin: 0;
+    }
+    .course-container{
+        width: 100%;
+    }
+}
