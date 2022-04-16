@@ -450,3 +450,40 @@ video{
         border: none;
     }
 }
+
+/* Footer section */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px auto 32px 24px;
+}
+
+.right-footer {
+    display: flex;
+    justify-content: 24px;
+}
+
+.right-footer li {
+    margin-right: 24px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: initial;
+}
+
+/* Footer-mobile */
+@media (max-width: 768px) {
+    .right-footer {
+        display: none;
+    }
+
+    .left-footer {
+        width: 90%;
+    }
+}
